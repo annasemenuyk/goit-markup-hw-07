@@ -1,0 +1,47 @@
+.futures {
+  padding-top: 94px;
+}
+.specificsh-list {
+  display: flex;
+}
+.specificsh-list .item {
+  flex-wrap: wrap;
+}
+.specificsh-list .item:not(:first-child) {
+  margin-left: 30px;
+}
+.specificsh-icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 120px;
+  border-radius: 4px;
+  background: #f5f4fa;
+  margin-bottom: 30px;
+}
+.specificsh-icon {
+  content: "";
+  width: 70px;
+  height: 70px;
+}
+
+.specificsh {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  text-transform: uppercase;
+}
+.specifics-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
