@@ -3,13 +3,14 @@
 }
 .specificsh-list {
   display: flex;
+  &.item {
+    flex-wrap: wrap;
+    &:not(:first-child) {
+      margin-left: 30px;
+    }
+  }
 }
-.specificsh-list .item {
-  flex-wrap: wrap;
-}
-.specificsh-list .item:not(:first-child) {
-  margin-left: 30px;
-}
+
 .specificsh-icon-box {
   display: flex;
   align-items: center;

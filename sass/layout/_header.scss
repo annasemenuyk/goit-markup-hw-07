@@ -9,30 +9,12 @@
   align-items: center;
 }
 
-.logo {
-  color: var(--acsent-color);
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  text-transform: uppercase;
-  cursor: pointer;
-}
-.logo-upline {
-  color: #000000;
-}
 /*Верхняя линия навигация*/
 .upline-nav-list {
   display: flex;
-}
-.nav-item:not(:first-child) {
-  margin-left: 50px;
-}
-.upline-nav-list {
   margin-left: 93px;
 }
+
 .nav-item {
   position: relative;
   display: block;
@@ -42,6 +24,14 @@
   letter-spacing: 0.02em;
   color: var(--title-text-color);
   transition: color, filter 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:not(:first-child) {
+    margin-left: 50px;
+  }
+  &:hover,
+  &:focus {
+    color: var(--acsent-color);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
 }
 .current::after {
   content: "";
@@ -57,19 +47,16 @@
 .list .link.current {
   color: var(--acsent-color);
 }
-.nav-item:hover,
-.nav-item:focus {
-  color: var(--acsent-color);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
+
 /*Верхняя линия контакты*/
 .upline-contacts {
   display: flex;
   margin-left: auto;
+  & .item + .item {
+    margin-left: 50px;
+  }
 }
-.upline-contacts .item + .item {
-  margin-left: 50px;
-}
+
 .contacts {
   font-weight: 500;
   font-size: 14px;
@@ -77,18 +64,18 @@
   letter-spacing: 0.02em;
   color: var(--secondary-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--acsent-color);
+  }
 }
 .upline-contacts-icon {
   margin: 0 auto;
   margin-right: 10px;
   fill: var(--secondary-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.contacts:hover,
-.contacts:focus {
-  color: var(--acsent-color);
-}
-.contacts:hover .upline-contacts-icon,
-.contacts:focus .upline-contacts-icon {
-  fill: var(--acsent-color);
+  .contacts:hover &,
+  .contacts:focus & {
+    fill: var(--acsent-color);
+  }
 }

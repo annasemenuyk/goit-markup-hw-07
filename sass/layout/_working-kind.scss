@@ -2,16 +2,18 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.working-kind-list > img {
-  display: block;
-  background: #f5f4fa;
-}
+
 .working-kind-list {
   display: flex;
+  & .item:not(:first-child) {
+    margin-left: 30px;
+  }
+  & > img {
+    display: block;
+    background: #f5f4fa;
+  }
 }
-.working-kind-list .item:not(:first-child) {
-  margin-left: 30px;
-}
+
 .working-kind {
   margin-top: 0;
   margin-bottom: 50px;
