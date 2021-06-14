@@ -1,4 +1,4 @@
-.section {
+.section-main {
   padding-top: 200px;
   padding-bottom: 200px;
   background: #2f303a;
@@ -17,10 +17,10 @@
   background-size: cover;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.main-section {
+.header {
   text-align: center;
 }
-.header-main {
+.section__header {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -31,7 +31,7 @@
   margin: 0 auto;
   margin-bottom: 30px;
 }
-.header-main-button {
+.section__button {
   display: inline-block;
   padding: 10px 32px;
   font-family: inherit;

@@ -1,21 +1,21 @@
-.upline {
+.upline-main {
   padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: 1px solid #ececec;
 }
-.upline-main,
-.upline-main-nav {
+.upline,
+.upline__nav {
   display: flex;
   align-items: center;
 }
 
 /*Верхняя линия навигация*/
-.upline-nav-list {
+.nav__list {
   display: flex;
   margin-left: 93px;
 }
 
-.nav-item {
+.nav__item {
   position: relative;
   display: block;
   font-weight: 500;
@@ -49,7 +49,7 @@
 }
 
 /*Верхняя линия контакты*/
-.upline-contacts {
+.upline__contacts {
   display: flex;
   margin-left: auto;
   & .item + .item {
@@ -69,7 +69,7 @@
     color: var(--acsent-color);
   }
 }
-.upline-contacts-icon {
+.upline__icon {
   margin: 0 auto;
   margin-right: 10px;
   fill: var(--secondary-color);

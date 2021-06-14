@@ -9,10 +9,10 @@
   text-transform: uppercase;
   cursor: pointer;
 }
-.logo-upline {
+.logo__upline {
   color: #000000;
 }
-.logo-down {
+.logo__down {
   display: block;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -21,7 +21,7 @@
   letter-spacing: 0.03em;
   color: var(--acsent-color);
 }
-.logo-down-next {
+.logo__next {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;

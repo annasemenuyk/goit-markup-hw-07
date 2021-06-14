@@ -17,32 +17,32 @@
 
 <body>
   <!--Верхняя линия-->
-  <header class="upline">
-    <div class="container upline-main">
-      <nav class="upline-main-nav">
-        <a class="logo link animate__heartBeat " href="./index.html">Web<span class="logo-upline">Studio</span></a>
-        <ul class="upline-nav-list list">
-          <li class="nav-item list">
-            <a class="nav-item link" href="index.html">Студия</a>
+  <header class="upline-main">
+    <div class="container upline">
+      <nav class="nav upline__nav ">
+        <a class="logo link animate__heartBeat " href="./index.html">Web<span class="logo__upline">Studio</span></a>
+        <ul class="nav__list list">
+          <li class="nav__item list">
+            <a class="nav__item link" href="index.html">Студия</a>
           </li>
-          <li class="nav-item list">
-            <a class="nav-item link current" href="">Портфолио </a>
+          <li class="nav__item list">
+            <a class="nav__item link current" href="">Портфолио </a>
           </li>
-          <li class="nav-item list">
-            <a class="nav-item link" href="">Контакты</a>
+          <li class="nav__item list">
+            <a class="nav__item link" href="">Контакты</a>
           </li>
         </ul>
       </nav>
-      <ul class="upline-contacts list">
+      <ul class="upline__contacts list">
         <li class="item">
           <a class="contacts link" href="mailto:info@devstudio.com">
-            <svg class="upline-contacts-icon" height="12px" width="16px">
+            <svg class="upline__icon" height="12px" width="16px">
               <use href="./images/icons.svg#envelope"></use>
             </svg>info@devstudio.com</a>
         </li>
         <li class="item">
           <a class="contacts link" href="tel:380961111111">
-            <svg class="upline-contacts-icon" height="16px" width="10px">
+            <svg class="upline__icon" height="16px" width="10px">
               <use href="./images/icons.svg#smartphone"></use>
             </svg>+38 096 111 11 11</a>
         </li>
@@ -50,139 +50,139 @@
     </div>
   </header>
   <main>
-    <section class="portfolio-page">
+    <section class="projekt portfolio-page">
       <div class="container">
         <!--Прихований заголоаок-->
         <h1 hidden>Портфоліо</h1>
         <h2 hidden>Фільтр по сторінці</h2>
-        <ul class="filters-page list">
-          <li class="item"> <button class="filters" type="button">Все</button> </li>
-          <li class="item"> <button class="filters" type="button">Веб-сайты</button> </li>
-          <li class="item"> <button class="filters" type="button">Приложения</button> </li>
-          <li class="item"> <button class="filters" type="button">Дизайн</button> </li>
-          <li class="item"> <button class="filters" type="button">Маркетинг</button> </li>
+        <ul class="portfolio filters-page list">
+          <li class="portfolio__item"> <button class="portfolio__filters" type="button">Все</button> </li>
+          <li class="portfolio__item"> <button class="portfolio__filters" type="button">Веб-сайты</button> </li>
+          <li class="portfolio__item"> <button class="portfolio__filters" type="button">Приложения</button> </li>
+          <li class="portfolio__item"> <button class="portfolio__filters" type="button">Дизайн</button> </li>
+          <li class="portfolio__item"> <button class="portfolio__filters" type="button">Маркетинг</button> </li>
         </ul>
         <h2 hidden>Наші роботи</h2>
-        <ul class="our-work list">
+        <ul class="projekts our-work list">
           <li class="item">
-            <a class="projekts-link link" href="">
-              <div class="projekts-overlay-works">
+            <a class="projekts__link link" href="">
+              <div class="projekts__overlay">
                 <img src="./images/portfolio/img1.jpg" alt="Технокряк" width="370" height="294">
-                <p class="projekts-overlay">Технокряк это современная площадка распространения коронавируса. Компании
+                <p class="projekts__describe">Технокряк это современная площадка распространения коронавируса. Компании
                   используют эту платформу для цифрового
                   шпионажа и атак на защищённые сервера конкурентов.</p>
               </div>
-              <div class="projekts">
-                <h3 class="name-images">Технокряк</h3>
-                <p class="name-kindofworks">Веб-сайт</p>
+              <div class="kindofworks kind-works">
+                <h3 class="kindofworks__images">Технокряк</h3>
+                <p class="kindofworks__name">Веб-сайт</p>
               </div>
             </a>
           </li>
           <li class="item">
-            <a class="projekts-link link" href="">
-              <div class="projekts-overlay-works">
+            <a class="projekts__link link" href="">
+              <div class="projekts__overlay">
                 <img src="./images/portfolio/img2.jpg" alt="Постер New Orlean vs Golden Star" width="370" height="294">
-                <p class="projekts-overlay">Технокряк это современная площадка распространения коронавируса. Компании
+                <p class="projekts__describe">Технокряк это современная площадка распространения коронавируса. Компании
                   используют эту платформу для цифрового
                   шпионажа и атак на защищённые сервера конкурентов.</p>
               </div>
-              <div class="projekts">
-                <h3 class="name-images" lang="en">Постер New Orlean vs Golden Star</h3>
-                <p class="name-kindofworks">Дизайн</p>
+              <div class="kindofworks kind-works">
+                <h3 class="kindofworks__images" lang="en">Постер New Orlean vs Golden Star</h3>
+                <p class="kindofworks__name">Дизайн</p>
               </div>
             </a>
           </li>
           <li class="item">
-            <a class="projekts-link link" href="">
-              <div class="projekts-overlay-works">
+            <a class="projekts__link link" href="">
+              <div class="projekts__overlay">
                 <img src="./images/portfolio/img3.jpg" alt="Ресторан Seafood" width="370" height="294">
-                <p class="projekts-overlay">Технокряк это современная площадка распространения коронавируса. Компании
+                <p class="projekts__describe">Технокряк это современная площадка распространения коронавируса. Компании
                   используют эту платформу для цифрового
                   шпионажа и атак на защищённые сервера конкурентов.</p>
               </div>
-              <div class="projekts">
-                <h3 class="name-images" lang="en">Ресторан Seafood</h3>
-                <p class="name-kindofworks">Приложение</p>
+              <div class="kindofworks kind-works">
+                <h3 class="kindofworks__images" lang="en">Ресторан Seafood</h3>
+                <p class="kindofworks__name">Приложение</p>
               </div>
             </a>
           </li>
           <li class="item">
-            <a class="projekts-link link" href="">
-              <div class="projekts-overlay-works">
+            <a class="projekts__link link" href="">
+              <div class="projekts__overlay">
                 <img src="./images/portfolio/img4.jpg" alt="Проект Prime" width="370" height="294">
-                <p class="projekts-overlay">Технокряк это современная площадка распространения коронавируса. Компании
+                <p class="projekts__describe">Технокряк это современная площадка распространения коронавируса. Компании
                   используют эту платформу для цифрового
                   шпионажа и атак на защищённые сервера конкурентов.</p>
               </div>
-              <div class="projekts">
-                <h3 class="name-images" lang="en">Проект Prime</h3>
-                <p class="name-kindofworks">Маркетинг</p>
+              <div class="kindofworks kind-works">
+                <h3 class="kindofworks__images" lang="en">Проект Prime</h3>
+                <p class="kindofworks__name">Маркетинг</p>
               </div>
             </a>
           </li>
-          <li class="item"><a class="projekts-link link" href="">
-              <div class="projekts-overlay-works">
+          <li class="item"><a class="projekts__link link" href="">
+              <div class="projekts__overlay">
                 <img src="./images/portfolio/img5.jpg" alt="Проект Boxes" width="370" height="294">
-                <p class="projekts-overlay">Технокряк это современная площадка распространения коронавируса. Компании
+                <p class="projekts__describe">Технокряк это современная площадка распространения коронавируса. Компании
                   используют эту платформу для цифрового
                   шпионажа и атак на защищённые сервера конкурентов.</p>
               </div>
-              <div class="projekts">
-                <h3 class="name-images" lang="en">Проект Boxes</h3>
-                <p class="name-kindofworks">Приложение</p>
+              <div class="kindofworks kind-works">
+                <h3 class="kindofworks__images" lang="en">Проект Boxes</h3>
+                <p class="kindofworks__name">Приложение</p>
               </div>
             </a>
           </li>
-          <li class="item"><a class="projekts-link link" href="">
-              <div class="projekts-overlay-works">
+          <li class="item"><a class="projekts__link link" href="">
+              <div class="projekts__overlay">
                 <img src="./images/portfolio/img6.jpg" alt="Inspiration has no Borders" width="370" height="294">
-                <p class="projekts-overlay">Технокряк это современная площадка распространения коронавируса. Компании
+                <p class="projekts__describe">Технокряк это современная площадка распространения коронавируса. Компании
                   используют эту платформу для цифрового
                   шпионажа и атак на защищённые сервера конкурентов.</p>
               </div>
-              <div class="projekts">
-                <h3 class="name-images" lang="en">Inspiration has no Borders</h3>
-                <p class="name-kindofworks">Веб-сайт</p>
+              <div class="kindofworks kind-works">
+                <h3 class="kindofworks__images" lang="en">Inspiration has no Borders</h3>
+                <p class="kindofworks__name">Веб-сайт</p>
               </div>
             </a>
           </li>
-          <li class="item"><a class="projekts-link link" href="">
-              <div class="projekts-overlay-works">
+          <li class="item"><a class="projekts__link link" href="">
+              <div class="projekts__overlay">
                 <img src="./images/portfolio/img7.jpg" alt="Издание Limited Edition" width="370" height="294">
-                <p class="projekts-overlay">Технокряк это современная площадка распространения коронавируса. Компании
+                <p class="projekts__describe">Технокряк это современная площадка распространения коронавируса. Компании
                   используют эту платформу для цифрового
                   шпионажа и атак на защищённые сервера конкурентов.</p>
               </div>
-              <div class="projekts">
-                <h3 class="name-images" lang="en">Издание Limited Edition</h3>
-                <p class="name-kindofworks">Дизайн</p>
+              <div class="kindofworks kind-works">
+                <h3 class="kindofworks__images" lang="en">Издание Limited Edition</h3>
+                <p class="kindofworks__name">Дизайн</p>
               </div>
             </a>
           </li>
-          <li class="item"><a class="projekts-link link" href="">
-              <div class="projekts-overlay-works">
+          <li class="item"><a class="projekts__link link" href="">
+              <div class="projekts__overlay">
                 <img src="./images/portfolio/img8.jpg" alt="Проект LAB" width="370" height="294">
-                <p class="projekts-overlay">Технокряк это современная площадка распространения коронавируса. Компании
+                <p class="projekts__describe">Технокряк это современная площадка распространения коронавируса. Компании
                   используют эту платформу для цифрового
                   шпионажа и атак на защищённые сервера конкурентов.</p>
               </div>
-              <div class="projekts">
-                <h3 class="name-images" lang="en">Проект LAB</h3>
-                <p class="name-kindofworks">Маркетинг</p>
+              <div class="kindofworks kind-works">
+                <h3 class="kindofworks__images" lang="en">Проект LAB</h3>
+                <p class="kindofworks__name">Маркетинг</p>
               </div>
             </a>
           </li>
           <li class="item">
-            <a class="projekts-link link" href="">
-              <div class="projekts-overlay-works">
+            <a class="projekts__link link" href="">
+              <div class="projekts__overlay">
                 <img src="./images/portfolio/img9.jpg" alt="Growing Business" width="370" height="294">
-                <p class="projekts-overlay">Технокряк это современная площадка распространения коронавируса. Компании
+                <p class="projekts__describe">Технокряк это современная площадка распространения коронавируса. Компании
                   используют эту платформу для цифрового
                   шпионажа и атак на защищённые сервера конкурентов.</p>
               </div>
-              <div class="projekts">
-                <h3 class="name-images" lang="en">Growing Business</h3>
-                <p class="name-kindofworks">Приложение</p>
+              <div class="kindofworks kind-works">
+                <h3 class="kindofworks__images" lang="en">Growing Business</h3>
+                <p class="kindofworks__name">Приложение</p>
               </div>
             </a>
           </li>
@@ -193,9 +193,9 @@
   </main>
   <!--Подвал страницы-->
   <footer class="footer-contacts">
-    <div class="container footer-contacts-main">
-      <div class="footer-contacts-outline">
-        <a class="logo-down link" href="./index.html">Web<span class="logo-down-next">Studio</span></a>
+    <div class="container footer__main">
+      <div class="footer__outline">
+        <a class="logo__down link" href="./index.html">Web<span class="logo__next">Studio</span></a>
         <address>
           <p class="address">г. Киев, пр-т Леси Украинки, 26</p>
           <ul class="outline-address list">

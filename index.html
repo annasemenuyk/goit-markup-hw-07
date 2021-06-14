@@ -18,33 +18,33 @@
 
 <body>
   <!--Верхняя линия-->
-  <header class="upline">
-    <div class="container upline-main">
-      <nav class="upline-main-nav">
+  <header class="upline-main">
+    <div class="container upline">
+      <nav class="nav upline__nav">
         <a class="logo link animate__heartBeat animate__animated animate__bounce" href="./index.html">Web<span
-            class="logo-upline">Studio</span></a>
-        <ul class="upline-nav-list list">
-          <li class="nav-item list">
-            <a class="nav-item link current" href="">Студия</a>
+            class="logo__upline">Studio</span></a>
+        <ul class="nav__list list">
+          <li class="nav__item list">
+            <a class="nav__item link current" href="">Студия</a>
           </li>
-          <li class="nav-item list">
-            <a class="nav-item link" href="./portfolio.html">Портфолио</a>
+          <li class="nav__item list">
+            <a class="nav__item link" href="./portfolio.html">Портфолио</a>
           </li>
-          <li class="nav-item list">
-            <a class="nav-item link" href="">Контакты</a>
+          <li class="nav__item list">
+            <a class="nav__item link" href="">Контакты</a>
           </li>
         </ul>
       </nav>
-      <ul class="upline-contacts list">
+      <ul class="upline__contacts list">
         <li class="item">
           <a class="contacts link" href="mailto:info@devstudio.com">
-            <svg class="upline-contacts-icon" height="12px" width="16px">
+            <svg class="upline__icon" height="12px" width="16px">
               <use href="./images/icons.svg#envelope"></use>
             </svg>info@devstudio.com</a>
         </li>
         <li class="item">
           <a class="contacts link" href="tel:380961111111">
-            <svg class="upline-contacts-icon" height="16px" width="10px">
+            <svg class="upline__icon" height="16px" width="10px">
               <use href="./images/icons.svg#smartphone"></use>
             </svg>+38 096 111 11 11</a>
         </li>
@@ -53,60 +53,60 @@
   </header>
   <main>
     <!--Шапка-->
-    <section class="section">
-      <div class="main-section container">
-        <h1 class="header-main">Эффективные решения для вашего бизнеса</h1>
-        <button class="header-main-button" type="button" data-modal-open>
+    <section class="section section-main">
+      <div class="header container">
+        <h1 class="section__header">Эффективные решения для вашего бизнеса</h1>
+        <button class="section__button" type="button" data-modal-open>
           Заказать услугу</button>
       </div>
     </section>
     <!--Особенности-->
-    <section class="futures">
-      <div class="specificsh-main container">
+    <section class="futures futures-section">
+      <div class="specificsh container">
         <h2 hidden>Особенности</h2>
-        <ul class="specificsh-list list">
+        <ul class="specificsh__list list">
           <li class="item">
-            <div class="specificsh-icon-box">
-              <svg class="specificsh-icon">
+            <div class="specificsh__box">
+              <svg class="specificsh__icon">
                 <use href="./images/icons.svg#antenna"></use>
               </svg>
             </div>
-            <h3 class="specificsh ">Внимание к деталям</h3>
-            <p class="specifics-text">
+            <h3 class="specificsh__futures">Внимание к деталям</h3>
+            <p class="specifics__text">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li class="item">
-            <div class="specificsh-icon-box">
-              <svg class="specificsh-icon">
+            <div class="specificsh__box">
+              <svg class="specificsh__icon">
                 <use href="./images/icons.svg#clock"></use>
               </svg>
             </div>
-            <h3 class="specificsh">Пунктуальность</h3>
-            <p class="specifics-text">Задача организации, в особенности же рамки и место обучения кадров
+            <h3 class="specificsh__futures">Пунктуальность</h3>
+            <p class="specifics__text">Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.</p>
           </li>
           <li class="item">
-            <div class="specificsh-icon-box">
-              <svg class="specificsh-icon">
+            <div class="specificsh__box">
+              <svg class="specificsh__icon">
                 <use href="./images/icons.svg#diagram"></use>
               </svg>
             </div>
-            <h3 class="specificsh">Планирование</h3>
-            <p class="specifics-text">
+            <h3 class="specificsh__futures">Планирование</h3>
+            <p class="specifics__text">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li class="item">
-            <div class="specificsh-icon-box">
-              <svg class="specificsh-icon">
+            <div class="specificsh__box">
+              <svg class="specificsh__icon">
                 <use href="./images/icons.svg#astronaut"></use>
               </svg>
             </div>
-            <h3 class="specificsh">Современные технологии</h3>
-            <p class="specifics-text">
+            <h3 class="specificsh__futures">Современные технологии</h3>
+            <p class="specifics__text">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -116,25 +116,25 @@
       <!--невидимый заголовок-->
     </section>
     <!--Чем мы занимаемся-->
-    <section class="working-kind-section">
+    <section class="workings working-kind-section">
       <div class="container">
-        <h2 class="working-kind">Чем мы занимаемся</h2>
-        <ul class="working-kind-list list">
+        <h2 class="kinds working-kind">Чем мы занимаемся</h2>
+        <ul class="kind__list list">
           <li class="item">
-            <div class="working-kind-overlay"><img src="./images/working-kind/box1.jpg" alt="Десктопные приложения"
-                width="370" height="294" />
+            <div class="kind__overlay"><img src="./images/working-kind/box1.jpg" alt="Десктопные приложения" width="370"
+                height="294" />
               <p class="overlay">Десктопные приложения</p>
             </div>
           </li>
           <li class="item">
-            <div class="working-kind-overlay"><img src="./images/working-kind/box2.jpg" alt="Мобильные приложения"
-                width="370" height="294" />
+            <div class="kind__overlay"><img src="./images/working-kind/box2.jpg" alt="Мобильные приложения" width="370"
+                height="294" />
               <p class="overlay">Мобильные приложения</p>
             </div>
           </li>
           <li class="item">
-            <div class="working-kind-overlay"><img src="./images/working-kind/box3.jpg" alt="Дизайнерские решения"
-                width="370" height="294" />
+            <div class="kind__overlay"><img src="./images/working-kind/box3.jpg" alt="Дизайнерские решения" width="370"
+                height="294" />
               <p class="overlay">Дизайнерские решения</p>
             </div>
           </li>
@@ -142,15 +142,15 @@
       </div>
     </section>
     <!--Наша команда-->
-    <section class="our-team">
+    <section class="working our-team">
       <div class="container">
-        <h2 class="working">Наша команда</h2>
-        <ul class="working-list list">
+        <h2 class="team working-team">Наша команда</h2>
+        <ul class="team__list list">
           <li class="item">
             <img src="./images/our-team/id.jpg" alt="Игорь Демьяненко" width="270" />
-            <div class="workers">
-              <h3 class="name">Игорь Демьяненко</h3>
-              <p class="profession" lang="en">Product Designer</p>
+            <div class="team__workers">
+              <h3 class="team__name">Игорь Демьяненко</h3>
+              <p class="team__profession" lang="en">Product Designer</p>
               <ul class="profession-social-list list">
                 <li class="profession-icon">
                   <a class="profession-icon-link link" href="instagram">
@@ -181,9 +181,9 @@
           </li>
           <li class="item">
             <img src="./images/our-team/or.jpg" alt="Ольга Репина" width="270" />
-            <div class="workers">
-              <h3 class="name">Ольга Репина</h3>
-              <p class="profession" lang="en">Frontend Developer</p>
+            <div class="team__workers">
+              <h3 class="team__name">Ольга Репина</h3>
+              <p class="team__profession" lang="en">Frontend Developer</p>
               <ul class="profession-social-list list">
                 <li class="profession-icon">
                   <a class="profession-icon-link link" href="instagram">
@@ -214,9 +214,9 @@
           </li>
           <li class="item">
             <img src="./images/our-team/nt.jpg" alt="Николай Тарасов" width="270" />
-            <div class="workers">
-              <h3 class="name">Николай Тарасов</h3>
-              <p class="profession" lang="en">Marketing</p>
+            <div class="team__workers">
+              <h3 class="team__name">Николай Тарасов</h3>
+              <p class="team__profession" lang="en">Marketing</p>
               <ul class="profession-social-list list">
                 <li class="profession-icon">
                   <a class="profession-icon-link link" href="instagram">
@@ -247,9 +247,9 @@
           </li>
           <li class="item">
             <img src="./images/our-team/me.jpg" alt="Михаил Ермаков" width="270" />
-            <div class="workers">
-              <h3 class="name">Михаил Ермаков</h3>
-              <p class="profession" lang="en">UI Designer</p>
+            <div class="team__workers">
+              <h3 class="team__name">Михаил Ермаков</h3>
+              <p class="team__profession" lang="en">UI Designer</p>
               <ul class="profession-social-list list">
                 <li class="profession-icon">
                   <a class="profession-icon-link link" href="instagram">
@@ -282,43 +282,43 @@
       </div>
     </section>
     <!--Постоянные клиенты-->
-    <section class="clients">
+    <section class="clients clients-list">
       <div class="container">
-        <h2 class="regular-clients">Постоянные клиенты</h2>
-        <ul class="regular-clients-list list">
+        <h2 class="group regular-clients">Постоянные клиенты</h2>
+        <ul class="group__list list">
           <li class="item">
-            <a class="regular-clients-icon-link link" href="group">
-              <svg class="regular-clients-logo-icon" height="60px" width="106px">
+            <a class="group__link link" href="group">
+              <svg class="group__logo" height="60px" width="106px">
                 <use href="./images/icons.svg#group"></use>
               </svg></a>
           </li>
           <li class="item">
-            <a class="regular-clients-icon-link link" href="group-1">
-              <svg class="regular-clients-logo-icon" height="60px" width="106px">
+            <a class="group__link link" href="group-1">
+              <svg class="group__logo" height="60px" width="106px">
                 <use href="./images/icons.svg#group-1"></use>
               </svg></a>
           </li>
           <li class="item">
-            <a class="regular-clients-icon-link link" href="group-2">
-              <svg class="regular-clients-logo-icon" height="60px" width="106px">
+            <a class="group__link link" href="group-2">
+              <svg class="group__logo" height="60px" width="106px">
                 <use href="./images/icons.svg#group-2"></use>
               </svg></a>
           </li>
           <li class="item">
-            <a class="regular-clients-icon-link link" href="group-3">
-              <svg class="regular-clients-logo-icon" height="60px" width="106px">
+            <a class="group__link link" href="group-3">
+              <svg class="group__logo" height="60px" width="106px">
                 <use href="./images/icons.svg#group-3"></use>
               </svg></a>
           </li>
           <li class="item">
-            <a class="regular-clients-icon-link link" href="group-4">
-              <svg class="regular-clients-logo-icon" height="60px" width="106px">
+            <a class="group__link link" href="group-4">
+              <svg class="group__logo" height="60px" width="106px">
                 <use href="./images/icons.svg#group-4"></use>
               </svg></a>
           </li>
           <li class="item">
-            <a class="regular-clients-icon-link link" href="group-5">
-              <svg class="regular-clients-logo-icon" height="60px" width="106px">
+            <a class="group__link link" href="group-5">
+              <svg class="group__logo" height="60px" width="106px">
                 <use href="./images/icons.svg#group-5"></use>
               </svg></a>
           </li>
@@ -327,10 +327,10 @@
     </section>
   </main>
   <!--Подвал страницы-->
-  <footer class="footer-contacts">
-    <div class="container footer-contacts-main">
-      <div class="footer-contacts-outline">
-        <a class="logo-down link" href="./index.html">Web<span class="logo-down-next">Studio</span></a>
+  <footer class="footer footer-contacts">
+    <div class="container footer__main">
+      <div class="footer__outline">
+        <a class="logo__down link" href="./index.html">Web<span class="logo__next">Studio</span></a>
         <address>
           <p class="address">г. Киев, пр-т Леси Украинки, 26</p>
           <ul class="outline-address list">

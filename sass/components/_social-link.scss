@@ -19,6 +19,17 @@
     fill: var(--secondary-acsent-color);
   }
 }
+.profession-social-list {
+  display: flex;
+  justify-content: space-between;
+}
+.profession-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #b6b8af;
+}
+
 .contacts-down-social {
   display: flex;
   margin-bottom: 20px;

@@ -1,7 +1,7 @@
-.futures {
+.futures-section {
   padding-top: 94px;
 }
-.specificsh-list {
+.specificsh__list {
   display: flex;
   &.item {
     flex-wrap: wrap;
@@ -11,7 +11,7 @@
   }
 }
 
-.specificsh-icon-box {
+.specificsh__box {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,13 +22,13 @@
   background: #f5f4fa;
   margin-bottom: 30px;
 }
-.specificsh-icon {
+.specificsh__icon {
   content: "";
   width: 70px;
   height: 70px;
 }
 
-.specificsh {
+.specificsh__futures {
   margin-top: 0;
   margin-bottom: 10px;
   font-weight: 700;
@@ -38,7 +38,7 @@
   color: var(--title-text-color);
   text-transform: uppercase;
 }
-.specifics-text {
+.specifics__text {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 14px;

@@ -3,7 +3,7 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.footer-contacts-outline {
+.footer__outline {
   padding: 0;
   & > a {
     padding: 0;
@@ -12,7 +12,7 @@
   }
 }
 
-.footer-contacts-main {
+.footer__main {
   display: flex;
   align-items: baseline;
 }
