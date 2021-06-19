@@ -1,17 +1,17 @@
-.futures-section {
+.futures {
   padding-top: 94px;
 }
-.specificsh__list {
+.futures__list {
   display: flex;
-  &.item {
+
+  &.futures__item {
     flex-wrap: wrap;
-    &:not(:first-child) {
-      margin-left: 30px;
-    }
   }
 }
-
-.specificsh__box {
+.futures__item:not(:first-child) {
+  margin-left: 30px;
+}
+.futures__box {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,7 +28,7 @@
   height: 70px;
 }
 
-.specificsh__futures {
+.futures__title {
   margin-top: 0;
   margin-bottom: 10px;
   font-weight: 700;
@@ -38,7 +38,7 @@
   color: var(--title-text-color);
   text-transform: uppercase;
 }
-.specifics__text {
+.futures__text {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 14px;

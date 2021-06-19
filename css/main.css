@@ -73,7 +73,7 @@ img {
   border-radius: 4px;
 }
 
-.profession-icon-link {
+.social__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -84,7 +84,7 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.profession-icon-link:hover, .profession-icon-link:focus {
+.social__link:hover, .social__link:focus {
   background-color: var(--acsent-color);
 }
 
@@ -92,17 +92,17 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.profession-icon-link:hover .profession-social-icon,
-.profession-icon-link:focus .profession-social-icon {
+.social__link:hover .profession-social-icon,
+.social__link:focus .profession-social-icon {
   fill: var(--secondary-acsent-color);
 }
 
-.profession-social-list {
+.social__list {
   display: flex;
   justify-content: space-between;
 }
 
-.profession-icon {
+.social__icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -429,14 +429,14 @@ img {
   color: var(--secondary-acsent-color);
 }
 
-.upline-main {
+.header {
   padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: 1px solid #ececec;
 }
 
-.upline,
-.upline__nav {
+.header__container,
+.nav {
   display: flex;
   align-items: center;
 }
@@ -484,16 +484,16 @@ img {
 }
 
 /*Верхняя линия контакты*/
-.upline__contacts {
+.contacts__list {
   display: flex;
   margin-left: auto;
 }
 
-.upline__contacts .item + .item {
+.contacts__list .contacts__item + .contacts__item {
   margin-left: 50px;
 }
 
-.contacts {
+.contacts__link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -502,7 +502,7 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts:hover, .contacts:focus {
+.contacts__link:hover, .contacts__link:focus {
   color: var(--acsent-color);
 }
 
@@ -513,14 +513,15 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts:hover .upline__icon,
-.contacts:focus .upline__icon {
+.contacts__link:hover .upline__icon,
+.contacts__link:focus .upline__icon {
   fill: var(--acsent-color);
 }
 
-.section-main {
+.hero {
   padding-top: 200px;
   padding-bottom: 200px;
+  text-align: center;
   background: #2f303a;
   max-width: 1600px;
   height: 600px;
@@ -533,11 +534,7 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.header {
-  text-align: center;
-}
-
-.section__header {
+.hero__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -549,7 +546,7 @@ img {
   margin-bottom: 30px;
 }
 
-.section__button {
+.hero__button {
   display: inline-block;
   padding: 10px 32px;
   font-family: inherit;
@@ -563,7 +560,7 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.section__button:hover, .section__button:focus {
+.hero__button:hover, .hero__button:focus {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -573,23 +570,23 @@ img {
   background-color: var(--acsent-color);
 }
 
-.futures-section {
+.futures {
   padding-top: 94px;
 }
 
-.specificsh__list {
+.futures__list {
   display: flex;
 }
 
-.specificsh__list.item {
+.futures__list.futures__item {
   flex-wrap: wrap;
 }
 
-.specificsh__list.item:not(:first-child) {
+.futures__item:not(:first-child) {
   margin-left: 30px;
 }
 
-.specificsh__box {
+.futures__box {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -607,7 +604,7 @@ img {
   height: 70px;
 }
 
-.specificsh__futures {
+.futures__title {
   margin-top: 0;
   margin-bottom: 10px;
   font-weight: 700;
@@ -618,7 +615,7 @@ img {
   text-transform: uppercase;
 }
 
-.specifics__text {
+.futures__text {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 14px;
@@ -627,25 +624,28 @@ img {
   color: var(--secondary-color);
 }
 
-.working-kind-section {
+.working {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.kind__list {
+.working__list {
   display: flex;
 }
 
-.kind__list .item:not(:first-child) {
+.working__list .working__item:not(:first-child) {
   margin-left: 30px;
 }
 
-.kind__list > img {
+.working__list > img {
   display: block;
   background: #f5f4fa;
 }
 
-.kinds {
+.working-title {
+  margin-top: 0;
+  margin-bottom: 50px;
+  text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -653,13 +653,7 @@ img {
   color: var(--title-text-color);
 }
 
-.working-kind {
-  margin-top: 0;
-  margin-bottom: 50px;
-  text-align: center;
-}
-
-.kind__overlay {
+.working__overlay {
   position: relative;
   display: flex;
 }
@@ -680,7 +674,7 @@ img {
   background: rgba(47, 48, 58, 0.8);
 }
 
-.our-team {
+.team {
   padding-top: 94px;
   padding-bottom: 94px;
   background: #f5f4fa;
@@ -690,32 +684,29 @@ img {
   display: flex;
 }
 
-.team__list .item {
+.team__list .team__item {
   flex-wrap: nowrap;
   background-color: var(--secondary-acsent-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
-.team__list .item:not(:first-child) {
+.team__list .team__item:not(:first-child) {
   margin-left: 30px;
 }
 
-.team {
+.team__title {
   text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-}
-
-.working-team {
   margin: 0 auto;
   margin-bottom: 50px;
 }
 
-.team__workers {
+.team__box {
   padding: 30px 32px;
 }
 
@@ -738,12 +729,14 @@ img {
   color: var(--secondary-color);
 }
 
-.clients-list {
+.clients {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
 .group {
+  margin: 0 auto;
+  margin-bottom: 50px;
   text-align: center;
   font-weight: 700;
   font-size: 36px;
@@ -752,16 +745,11 @@ img {
   color: var(--title-text-color);
 }
 
-.regular-clients {
-  margin: 0 auto;
-  margin-bottom: 50px;
-}
-
 .group__list {
   display: flex;
 }
 
-.group__list .item:not(:first-child) {
+.group__list .group__item:not(:first-child) {
   margin-left: 30px;
 }
 
@@ -790,7 +778,7 @@ img {
   fill: #2196f3;
 }
 
-.footer-contacts {
+.footer {
   background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;

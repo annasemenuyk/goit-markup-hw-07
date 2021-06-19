@@ -1,11 +1,11 @@
-.working-kind-section {
+.working {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.kind__list {
+.working__list {
   display: flex;
-  & .item:not(:first-child) {
+  & .working__item:not(:first-child) {
     margin-left: 30px;
   }
   & > img {
@@ -13,20 +13,17 @@
     background: #f5f4fa;
   }
 }
-.kinds {
+.working-title {
+  margin-top: 0;
+  margin-bottom: 50px;
+  text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
-
-.working-kind {
-  margin-top: 0;
-  margin-bottom: 50px;
-  text-align: center;
-}
-.kind__overlay {
+.working__overlay {
   position: relative;
   display: flex;
 }
